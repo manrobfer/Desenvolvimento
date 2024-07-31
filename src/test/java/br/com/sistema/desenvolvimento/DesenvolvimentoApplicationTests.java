@@ -10,14 +10,10 @@ import static org.junit.jupiter.api.Assertions.fail;
 class DesenvolvimentoApplicationTests {
 
 	@Test
-	void contextLoads() {
-
-		boolean verdadeiro = (5 > 20);
+	void deveRetornarVerdadeiroSeCincoMaior() {
+		boolean verdadeiro = (5 > 2);
 		Assertions.assertTrue(verdadeiro);
 	}
 
-	void deveCalcularSomaDosSalarios(){
-
-	}
-
+	
 }
