@@ -17,6 +17,11 @@ public class WebController {
     @Autowired
     PersonService personService;
 
+    @GetMapping("/")
+    public String getOk(){
+        return "Tudo Ok!";
+    }
+
     @GetMapping("/find")
     public PersonDTO getPerson(){
         return personService.getPerson();
